@@ -12,11 +12,11 @@
 
 body {
     font-family: 'Noto Serif', serif, Arial; /* Define a fonte padrão */
-    background-color: #f0f0f0; /* Define a cor de fundo */
+    background-color: #0cb3f5; /* Define a cor de fundo */
 }
 
 header {
-    background-color: #333; /* Define a cor de fundo */
+    background-color: #170272; /* Define a cor de fundo */
     color: #fff; /* Define a cor do texto */
     text-align: center; /* Centraliza o texto */
     padding: 1rem; /* Define um espaçamento interno */
@@ -58,7 +58,7 @@ main {
 }
 
 .card button {
-    background-color: #333;
+    background-color: #6e51d6;
     color: #fff;
     border: none;
     padding: 8px 16px;
@@ -72,9 +72,19 @@ main {
 }
 
 footer {
-    background-color: #333;
+    background-color: #120368;
     color: #fff;
     text-align: center;
     padding: 1rem;
 }
 
+#corfundo {
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    transition: background-color 0.4s ease-in-out;
+ }
+
+#corfundo:hover {
+    background-color: blue;
+} 
