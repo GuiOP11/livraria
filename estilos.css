@@ -90,7 +90,7 @@ footer {
  }
 
 #corfundo:hover {
-    background-color: blue;
+    background-color: rgb(13, 9, 240);
 } 
 
 .container {
@@ -173,7 +173,7 @@ input[type="number"] {
   }
 
   button {
-    background-color: #007bff;
+    background-color: #11d2eb;
     color: white;
     border: none;
     border-radius: 4px;
@@ -183,7 +183,7 @@ input[type="number"] {
   
   /* Botão de Limpar */
   button[type="reset"] {
-    background-color: #6c757d;
+    background-color: #04142b;
   }
   
   /* Botão de Enviar */
